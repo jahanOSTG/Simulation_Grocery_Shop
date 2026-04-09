@@ -19,7 +19,7 @@ The simulation follows these core queuing theory formulas:
 ## 📗 Manual Excel Solution
 Before implementing in Python, the problem was solved manually in Excel to verify the accuracy of the simulation logic:
 
-![Excel Solution](Problem.jpeg)
+![Excel Solution](xml.png)
 
 ## 🛠️ Technologies Used
 - **Python 3.x**
