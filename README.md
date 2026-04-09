@@ -5,7 +5,7 @@ This project is a Python-based simulation of a single-server queuing model, spec
 ## 📖 Problem Statement & Question
 Below is the original problem statement from the textbook that this simulation solves:
 
-![Question Image](LINK_TO_YOUR_QUESTION_IMAGE)
+![Question Image](Problem.jpeg)
 
 ## 📊 Logic & Formulas
 The simulation follows these core queuing theory formulas:
