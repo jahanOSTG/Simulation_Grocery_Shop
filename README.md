@@ -9,12 +9,12 @@ Below is the original problem statement from the textbook that this simulation s
 
 ##  Logic & Formulas
 The simulation follows these core queuing theory formulas:
-a. **Arrival Time (AT):** $AT_i = AT_{i-1} + IAT_i$
-b. **Time Service Begins (TSB):** $TSB_i = \max(AT_i, TSE_{i-1})$
-c. **Time Service Ends (TSE):** $TSE_i = TSB_i + ST_i$
-d. **Waiting Time (WT):** $WT_i = TSB_i - AT_i$
-e. **Time in System (TTS):** $TTS_i = WT_i + ST_i$
-f. **Idle Time:** $Idle = TSB_i - TSE_{i-1}$ (if $TSB_i > TSE_{i-1}$)
+- **Arrival Time (AT):** $AT_i = AT_{i-1} + IAT_i$
+- **Time Service Begins (TSB):** $TSB_i = \max(AT_i, TSE_{i-1})$
+- **Time Service Ends (TSE):** $TSE_i = TSB_i + ST_i$
+- **Waiting Time (WT):** $WT_i = TSB_i - AT_i$
+- **Time in System (TTS):** $TTS_i = WT_i + ST_i$
+- **Idle Time:** $Idle = TSB_i - TSE_{i-1}$ (if $TSB_i > TSE_{i-1}$)
 
 ##  Manual Excel Solution
 Before implementing in Python, the problem was solved manually in Excel to verify the accuracy of the simulation logic:
